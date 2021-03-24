@@ -6,7 +6,7 @@ export const lizards = [
         img: "https://www.thespruce.com/thmb/Q0OeCxM_tjBuQD-zlxKGMwnE6uw=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-get-rid-of-flies-1389068-01-834a59e9bbbe4336973c9faf5c2d7ff5.jpg"
       },
       {
-        name: 'Lizzard',
+        name: 'Lizard',
         price: 10,
         description: 'Cool lizzard to cuddle with',
         img: "https://image.shutterstock.com/image-photo/tarentola-chazaliae-little-lizzard-260nw-1572568513.jpg"
