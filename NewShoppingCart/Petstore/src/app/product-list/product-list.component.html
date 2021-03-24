@@ -1,9 +1,10 @@
-<h2>Products</h2>
 <div *ngFor="let product of products">
- <h3>
-     {{ product.name }}
- </h3>
- <p *ngIf="product.description">
-    Description: {{ product.description }}
-  </p>
+  <div class="card" style="width: 18rem;">
+    <img src="{{ product.img }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ product.name }}</h5>
+      <p class="card-text">Description: {{ product.description }}</p>
+      <a href="#" class="btn btn-primary">Add to cart</a>
+    </div>
+  </div>
 </div>
