@@ -1,1 +1,6 @@
-<p>product-details works!</p>
+<div *ngIf="aa">
+    <h3>{{ aa.name }}</h3>
+    <p><img width="250" height="200" src="{{ aa.img}}"></p>
+    <h4>{{ aa.price | currency }}</h4>
+    <p>{{ aa.description }}</p>
+</div>

@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { products } from '../products';
+import { lizards } from '../lizard';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'lizard-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  products = products;
+  lizards = lizards;
 
   constructor() { }
 
